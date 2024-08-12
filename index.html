@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/5c1413da0e.js" crossorigin="anonymous"></script>
-    <title>My resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/5c1413da0e.js" crossorigin="anonymous"></script>
+  <title>mikyven</title>
 </head>
+
 <body>
-    <nav>
-        <a id="active" href="index.html">
-            <p>Main</p>
-            <hr>
-        </a>
-        <a href="portfolio.html">
-            <p>Portfolio</p>
-            <hr>
-        </a>
-    </nav>
-    <main>
-        <h1>Oleksandr Priadun</h1>
-        <p>Beginning front-end developer. Ut nec odio sit amet ante porta consequat. 
-        Suspendisse venenatis consectetur tortor, in imperdiet massa maximus vitae.</p>
-        <div class="contacts">
-            <a href="https://t.me/mikyven" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+  <section class="main" id="main">
+    <h1>Oleksandr Priadun</h1>
+    <p>Beginning full-stack developer. Ut nec odio sit amet ante porta consequat.
+      Suspendisse venenatis consectetur tortor, in imperdiet massa maximus vitae.</p>
+    <div class="contacts">
+      <a href="https://t.me/mikyven" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+    </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <h1>My portfolio</h1>
+    <div class="items">
+      <a href="https://mikyven.github.io/di-gi/"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(images/di-gi.jpg)">
+        <div>
+          <p>Di-Gi | Диджитал агенство</p>
         </div>
-    </main>
+      </a>
+      <a href="https://shpp-frontend-trello.vercel.app/"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(images/trello.png);">
+        <div>
+          <p>Trello Clone</p>
+        </div>
+      </a>
+    </div>
+
+  </section>
 </body>
+
 </html>
